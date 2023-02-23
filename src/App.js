@@ -1,9 +1,9 @@
-import './App.css';
+import './css/App.css';
 
-function Card(){
+function Card(props){
  return (
   <div className='Card' href='/'>
-    <div className='CardInside'></div>
+    <a href= "/" className='CardInside'>{props.name}</a>
   </div>
  );
 }
@@ -13,15 +13,14 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Get to know the team</h1>
-     <div className='CardContainer MAIN'>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+
+     <h1 className='font'>Get to know the team</h1>
+     <div className='CardContainer'>
+        <Card name="John Doe"/>
+        <Card name="John Doe"/>
+        <Card name="John Doe"/>
+        <Card name="John Doe"/>
+        <Card name="John Doe"/>
         </div>
     </div>
   );
