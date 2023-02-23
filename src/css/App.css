@@ -1,0 +1,55 @@
+.CardContainer {
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  overflow: scroll;
+  scroll-behavior:smooth;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.Card{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin:15px;
+  min-width: 150px;
+  min-height: 190px;
+  background-color: rgb(213, 213, 213);
+  border-radius: 20px;
+  border-color: transparent;
+  transition: all 0.3s ease 0s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.Card:hover{
+  transform: scale(1.05);
+  transition: all 0.3s ease 0s;
+}
+.CardInside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:black;
+  text-decoration: none;
+  width: 120px;
+  height: 20px;
+  background-color: rgb(213, 213, 213);
+  border:solid 1px black;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+}
+.CardInside:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.font{
+  font-family: Swear Display;
+  font-size: 6vh;
+  font-weight: 500;
+  font-style: italic;
+  margin-left:5vw
+}
