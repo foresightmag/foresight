@@ -19,7 +19,7 @@
   border-radius: 20px;
   border-color: transparent;
   transition: all 0.3s ease 0s;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  
 }
 .Card:hover{
   transform: scale(1.05);
