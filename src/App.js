@@ -27,8 +27,8 @@ function App() {
         <Card name="John Doe"/>
         <Card name="John Doe"/>
         <Card name="John Doe"/>
+        <Card name="John Doe"/>
       </div>
-      
     </div>
   );
 }
