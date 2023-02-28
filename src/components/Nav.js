@@ -1,3 +1,4 @@
+import '../css/Nav.css';
 import React from 'react';
 import logo from "../images/BLACK-FORESIGHT-LOGO.png";
 export default function()
