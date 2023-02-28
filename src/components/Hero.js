@@ -8,7 +8,7 @@ export default function()
     return (
     <section className="hero-section">
       <div className="oval-cutout">
-        <img src={logo} className="hero-logo"/>
+        <img src={logo} className="hero-logo" alt="logo"/>
       </div>
     </section>
     );   
