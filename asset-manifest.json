@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/foresight/static/css/main.ba490551.css",
+    "main.js": "/foresight/static/js/main.fdfed0b8.js",
+    "static/js/787.29ac686a.chunk.js": "/foresight/static/js/787.29ac686a.chunk.js",
+    "index.html": "/foresight/index.html",
+    "main.ba490551.css.map": "/foresight/static/css/main.ba490551.css.map",
+    "main.fdfed0b8.js.map": "/foresight/static/js/main.fdfed0b8.js.map",
+    "787.29ac686a.chunk.js.map": "/foresight/static/js/787.29ac686a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba490551.css",
+    "static/js/main.fdfed0b8.js"
+  ]
+}
