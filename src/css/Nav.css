@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding-top: 4%;
+    padding-left: 2%;
+  
+    width:90%;
+  
+    font-family: Swear Display;
+    font-size: 2vh;
+    font-weight: 500;
+    font-style: italic;
+    margin-left:5vw
+  }
+  
+  .nav-logo {
+    flex-shrink: 2;
+  }
+  
+  .issue-title {
+    margin-left: auto;
+  }
+  a{
+    color:black;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a:active {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }

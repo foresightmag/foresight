@@ -1,0 +1,20 @@
+.oval-cutout {
+    height: 90vh;
+    width: 100vw;
+    background: radial-gradient(ellipse 50% 60% at 50% 50%, 
+                                transparent 500px, #ffffff 50px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-section {
+    background-color: #D9D9D9;
+  }
+  
+  .hero-logo {
+    height: 15%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+  }

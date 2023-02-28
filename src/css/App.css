@@ -54,67 +54,6 @@
   margin-left:5vw
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  gap: 5%;
-  padding-top: 4%;
-  padding-left: 2%;
-
-  width:90%;
-
-  font-family: Swear Display;
-  font-size: 2vh;
-  font-weight: 500;
-  font-style: italic;
-  margin-left:5vw
-}
-
-.nav-logo {
-  flex-shrink: 2;
-}
-
-.issue-title {
-  margin-left: auto;
-}
-a{
-  color:black;
-}
-a:link {
-  text-decoration: none;
-}
-a:active {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-}
-a:visited {
-  text-decoration: none;
-}
-
-.oval-cutout {
-  height: 90vh;
-  width: 100vw;
-  background: radial-gradient(ellipse 50% 60% at 50% 50%, 
-                              transparent 500px, #ffffff 50px);
-  position: relative;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-section {
-  background-color: #D9D9D9;
-}
-
-.hero-logo {
-  height: 15%;
-  padding-left: 1%;
-  padding-bottom: 1%;
-}
-
 .marquee {
   font-family: Swear Display;
   font-style: italic;
