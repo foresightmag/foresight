@@ -26,15 +26,18 @@ nav {
   }
   a{
     color:#5B81F1;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
   }
   a:link {
-    text-decoration: none;
+    
   }
   a:active {
-    text-decoration: none;
+    
   }
   a:hover {
-    text-decoration: none;
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
   }
   a:visited {
     text-decoration: none;
