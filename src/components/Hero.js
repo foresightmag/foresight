@@ -1,7 +1,6 @@
 import '../css/Hero.css';
 import React from 'react'
 import logo from "../images/BLUE-FORESIGHT-LOGO.svg"
-import placeholderimage from "../images/placeholder.jpeg"
 
 
 export default function()

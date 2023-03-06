@@ -1,5 +1,6 @@
 import '../css/About.css';
 import React from 'react';
+import placeholderimage from "../images/placeholder.jpeg"
 
 export default function()
 {
