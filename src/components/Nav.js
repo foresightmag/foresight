@@ -1,6 +1,7 @@
 import '../css/Nav.css';
 import React from 'react';
 import logo from "../images/BLUE-FORESIGHT-LOGO.svg";
+import instaicon from "../images/instagram.svg"
 export default function()
 {
     return (
@@ -12,6 +13,7 @@ export default function()
               <a href="">Student Interview</a>
               <a href="">Prof. Interview</a>
               <div className="issue-title">Issue 01 Women in STEM</div>
+              <a href=""><img className="insta-icon" src={instaicon}/></a>
             </nav>
           </div>
         </div>
