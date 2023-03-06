@@ -1,18 +1,44 @@
-.about {
+  .about {
     display: flex;
+    font-family: Swear Display;
+    font-weight: 50;
+    color: #5B81F1;
   }
   
   .about-title {
-    font-family: Swear Display;
     font-style: italic;
     font-weight: 100;
-    width: 50%;
-    padding-left: 5%;
+    width: 100%;
     font-size: 50px;
   }
   
   .about-content {
-    width: 50%;
-    padding-top: 5%;
-    padding-right: 5%;
+    padding-top: 10px;
+  }
+
+  .about {
+    padding-top: 50px;
+    display: flex;
+  }
+
+  .about-text {
+    display: block;
+    padding-left: 50px;
+    padding-right: 200px;
+    width: 40%;
+  }
+
+  .about-image {
+    width: 40vw;
+    height: 50vh;
+    padding-right: 50px;
+    float: right;
+  }
+
+  .about-image-container {
+    /* height: 1000px;
+    width: 10px; */
+    /* background-color: powderblue; */
+    margin-left: auto;
+    /* padding-right: 50px; */
   }
