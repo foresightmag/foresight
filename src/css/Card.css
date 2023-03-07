@@ -13,8 +13,8 @@
   justify-content: center;
   align-items: flex-end;
   margin:15px;
-  min-width: 150px;
-  min-height: 190px;
+  min-width: 190px;
+  min-height: 210px;
   background-color: rgb(213, 213, 213);
   border-radius: 20px;
   border-color: transparent;
@@ -30,7 +30,7 @@
   align-items: center;
   color:black;
   text-decoration: none;
-  width: 120px;
+  width: 170px;
   height: 20px;
   background-color: rgb(213, 213, 213);
   border:solid 1px black;
