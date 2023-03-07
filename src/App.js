@@ -2,6 +2,7 @@ import './App.css';
 import Card from "./components/Card"
 import Nav from "./components/Nav"
 import Hero from "./components/Hero"
+import Marquee from "./components/Marquee"
 import About from "./components/About"
 
 function App() {
@@ -10,16 +11,20 @@ function App() {
     <div className="App">
       <Nav/>
       <Hero/>
-      
-      <marquee className="marquee" style={{ color: 'black', fontSize: '2em', loop: -1 }}>
-        A magazine designed for student by students. A magazine designed for student by students.
-      </marquee>
+
+      <Marquee/>
 
       <About/>
 
-     <h1 className='font'>Get to know the team</h1>  
+     <h1 className='get-to-know-the-team'>Get to know the team</h1>  
 
       <div className='CardContainer'>
+        <Card name="John Doe"/>
+        <Card name="John Doe"/>
+        <Card name="John Doe"/>
+        <Card name="John Doe"/>
+        <Card name="John Doe"/>
+        <Card name="John Doe"/>
         <Card name="John Doe"/>
         <Card name="John Doe"/>
         <Card name="John Doe"/>

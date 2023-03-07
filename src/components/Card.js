@@ -2,7 +2,7 @@ import '../css/Card.css';
 import React from 'react';
 
 
-export default function(props)
+export default function Card(props)
 {
     return (
         <div className='Card' href='/'>
