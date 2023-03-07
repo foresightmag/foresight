@@ -1,15 +1,16 @@
 import '../css/Hero.css';
 import React from 'react'
-import logo from "../images/BLACK-FORESIGHT-LOGO.png"
+import logo from "../images/BLUE-FORESIGHT-LOGO.svg"
 
 
 export default function()
 {
     return (
-    <section className="hero-section">
+    <div className="hero-section">
       <div className="oval-cutout">
         <img src={logo} className="hero-logo" alt="logo"/>
+        <img className="front-image"/>
       </div>
-    </section>
+    </div>
     );   
 }
