@@ -17,7 +17,7 @@ function App() {
       </marquee>
       <About/>
 
-     <h1 className='font'>Get to know the team</h1>  
+     <h1 className='get-to-know-the-team'>Get to know the team</h1>  
 
       <div className='CardContainer'>
         <Card name="John Doe"/>
