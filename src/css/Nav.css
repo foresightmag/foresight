@@ -35,6 +35,7 @@ nav {
   a:active {
     
   }
+ 
   a:hover {
     transform: scale(1.1);
     transition: all 0.3s ease 0s;
@@ -57,4 +58,5 @@ nav {
 
   .insta-icon {
     width: 20px;
+
   }

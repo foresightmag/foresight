@@ -11,7 +11,9 @@ function App() {
     <div className="App">
       <Nav/>
       <Hero/>
+
       <Marquee/>
+
       <About/>
 
      <h1 className='get-to-know-the-team'>Get to know the team</h1>  

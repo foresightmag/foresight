@@ -14,5 +14,6 @@ export default function About()
         <img src={placeholderimage} className="about-image" width="500px" alt="Logo"/>
       </div>
     </div>
+
        );
 }
