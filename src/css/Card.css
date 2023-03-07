@@ -1,8 +1,8 @@
 .CardContainer {
   display: flex;
-  justify-content:space-around;
+  justify-content:flex-start;
   align-items:center;
-  overflow: scroll;
+  overflow-x: scroll;
   scroll-behavior:smooth;
 }
 ::-webkit-scrollbar{
