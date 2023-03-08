@@ -1,16 +1,21 @@
-.font{
-    font-family: Swear Display;
-    font-size: 6vh;
-    font-weight: 500;
-    font-style: italic;
-    margin-left:5vw
-  }
-  .get-to-know-the-team {
-    font-family: Swear Display;
-    font-size: 6vh;
-    font-weight: 500;
-    font-style: italic;
-    margin-left:50px;
-    color: #5B81F1;
-  }
+:root {
+  scroll-behavior: smooth;
+}
+.font {
+  font-family: Swear Display;
+  font-size: 6vh;
+  font-weight: 500;
+  font-style: italic;
+  margin-left: 5vw;
+}
+.get-to-know-the-team {
+  font-family: Swear Display;
+  font-size: 6vh;
+  font-weight: 500;
+  font-style: italic;
+  margin-left: 50px;
+  color: #5b81f1;
+}
+
+
 
