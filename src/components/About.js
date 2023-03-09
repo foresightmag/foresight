@@ -46,7 +46,7 @@ export default function About() {
           and willing to inspire change.
         </p>
       </div>
-      <img src={vector} alt="logo" />
+      <img id="vector" src={vector} alt="logo" />
     </div>
   );
 }

@@ -45,7 +45,11 @@
 
   }
 
-  .mobileAbout{
+  .aboutMobile{
+    display: none;
+  }
+
+  #vector{
     display: none;
   }
 
