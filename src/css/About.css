@@ -53,6 +53,8 @@
     display: none;
   }
 
+
+
   @media screen and (max-width: 600px){
     .about-text{
       display: none;
@@ -60,7 +62,12 @@
     .about-image-container{
       display: none;
     }
-
+    #vector{
+      display: block;
+    }
+    .aboutMobile{
+      display:block ;
+    }
     .about{
       position: relative;
       display: flex;
