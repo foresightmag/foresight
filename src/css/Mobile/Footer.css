@@ -1,0 +1,16 @@
+.Footer{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+  .Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5b81f1;
+    font-size:.35rem;
+    font-family: swear display;
+    text-transform: uppercase;
+    
+    
+  }
+}

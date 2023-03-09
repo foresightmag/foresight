@@ -1,11 +1,11 @@
 import "../css/About.css";
 import React from "react";
 import placeholderimage from "../images/placeholder.jpeg";
+import vector from "../images/Vector.svg";
 
 export default function About() {
   return (
     <div className="about">
-
       <div className="about-text">
         <h1 className="about-title">About the mag!</h1>
         <p className="about-content">
@@ -29,10 +29,24 @@ export default function About() {
       </div>
 
       <div className="about-image-container">
-        <img src={placeholderimage} className="about-image" width="500px" alt="Logo" />
+        <img
+          src={placeholderimage}
+          className="about-image"
+          width="500px"
+          alt="Logo"
+        />
       </div>
+
+      <div className="aboutMobile">
+        <p className="fontAbout">About The Mag!</p>
+        <p>
+          Each issue will feature a student and experienced professional from
+          diverse backgrounds and career paths. Foresight indents to strengthen
+          your understanding of your career and equip a generation passionate
+          and willing to inspire change.
+        </p>
+      </div>
+      <img src={vector} alt="logo" />
     </div>
-
-
-       );
+  );
 }

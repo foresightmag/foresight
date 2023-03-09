@@ -17,5 +17,10 @@
   color: #5b81f1;
 }
 
+@media screen and (max-width: 600px){
+  .get-to-know-the-team{
+    display: none;
+  }
 
+}
 

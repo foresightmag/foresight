@@ -56,3 +56,43 @@ a:visited {
 .insta-icon {
   width: 20px;
 }
+.NavMobile{
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-container{
+    display: none;
+  }
+  .NavMobile {
+    margin: .2rem .9rem;
+    height: 4rem;
+    
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+
+    
+  }
+  .NavMobile a{
+    font-size: .4rem;
+    margin: 0 0.5rem;
+    color: #5b81f1;
+
+  }
+
+  #socialLogo{
+    height: .8rem;
+  }
+  #logolink{
+    margin: 0 .2rem;
+  }
+
+
+  
+  .ForesightMobileLogo{
+    height: 1rem;
+    width: 6rem;
+  }
+
+}

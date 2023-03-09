@@ -5,11 +5,12 @@ import Hero from "./components/Hero";
 import Marquee from "./components/Marquee";
 import About from "./components/About";
 import InterviewContainer from "./components/InterviewContainer";
+import Footer from "./components/Mobile/Footer"
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Nav /> 
       <Hero />
 
       <Marquee />
@@ -32,6 +33,8 @@ function App() {
       <InterviewContainer ID="jumpToSI" Title="Student Interview" />
       <InterviewContainer ID="jumpToPI" Title="Professor Interview" />
       <InterviewContainer ID="jumpToGL" Title="Global" />
+
+      <Footer/>
       
     </div>
   );

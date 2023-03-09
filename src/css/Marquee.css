@@ -28,3 +28,9 @@
     transform: translate(-100%, 0);
   }
 }
+
+@media screen and (max-width: 600px){
+  .marquee{
+    display: none;
+  }
+}
