@@ -13,10 +13,10 @@ export default function Nav() {
             <img className="nav-logo" src={logo} height="10px" alt="logo" />
           </a>
           <a href="#jumpToGL">Global</a>
+          <a href="#jumpToPI">Professor Interview</a>
           <a href="#jumpToSI">Student Interview</a>
-          <a href="#jumpToPI">Prof. Interview</a>
           <div className="issue-title">Issue 01 Women in STEM</div>
-          <a href="/">
+          <a href="https://instagram.com/foresightmag/" target="popup" >
             <img className="insta-icon" src={instaicon} alt="logo" />
           </a>
         </nav>

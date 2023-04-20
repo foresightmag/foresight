@@ -8,7 +8,7 @@ import InterviewContainer from "./components/InterviewContainer";
 import Footer from "./components/Mobile/Footer"
 
 function App() {
-  return (
+    return (
     <div className="App">
       <Nav /> 
       <Hero />
@@ -18,7 +18,6 @@ function App() {
       <About />
 
       <h1 className="get-to-know-the-team">Get to know the team</h1>
-
       <div className="CardContainer">
         <Card name="John Doe" />
         <Card name="John Doe" />
