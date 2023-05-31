@@ -1,8 +1,8 @@
 .CardContainer {
   display: flex;
-  justify-content:space-around;
+  justify-content:flex-start;
   align-items:center;
-  overflow: scroll;
+  overflow-x: scroll;
   scroll-behavior:smooth;
 }
 ::-webkit-scrollbar{
@@ -13,8 +13,8 @@
   justify-content: center;
   align-items: flex-end;
   margin:15px;
-  min-width: 150px;
-  min-height: 190px;
+  min-width: 190px;
+  min-height: 210px;
   background-color: rgb(213, 213, 213);
   border-radius: 20px;
   border-color: transparent;
@@ -30,7 +30,7 @@
   align-items: center;
   color:black;
   text-decoration: none;
-  width: 120px;
+  width: 170px;
   height: 20px;
   background-color: rgb(213, 213, 213);
   border:solid 1px black;
@@ -44,4 +44,10 @@
   color: white;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width: 600px){
+  .CardContainer{
+    display: none;
+  }
 }

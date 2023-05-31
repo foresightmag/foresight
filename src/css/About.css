@@ -1,18 +1,105 @@
-.about {
+  .about {
     display: flex;
+    font-family: Swear Display;
+    font-weight: 50;
+    color: #5B81F1;
   }
   
   .about-title {
-    font-family: Swear Display;
     font-style: italic;
     font-weight: 100;
-    width: 50%;
-    padding-left: 5%;
+    width: 100%;
+
     font-size: 50px;
   }
   
   .about-content {
-    width: 50%;
-    padding-top: 5%;
-    padding-right: 5%;
+    padding-top: 10px;
+  }
+
+  .about {
+    padding-top: 50px;
+    display: flex;
+  }
+
+  .about-text {
+    display: block;
+    padding-left: 50px;
+    padding-right: 200px;
+    width: 40%;
+  }
+
+  .about-image {
+    width: 40vw;
+    height: 50vh;
+    padding-right: 50px;
+    float: right;
+  }
+
+  .about-image-container {
+    /* height: 1000px;
+    width: 10px; */
+    /* background-color: powderblue; */
+    margin-left: auto;
+    /* padding-right: 50px; */
+
+  }
+
+  .aboutMobile{
+    display: none;
+  }
+
+  #vector{
+    display: none;
+  }
+
+
+
+  @media screen and (max-width: 600px){
+    .about-text{
+      display: none;
+    }
+    .about-image-container{
+      display: none;
+    }
+    #vector{
+      display: block;
+    }
+    .aboutMobile{
+      display:block ;
+    }
+    .about{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .about img{
+      margin-top:16vh;
+      margin-bottom: 46vh;
+      height: 20vh;
+      width: 65vw;
+      
+    }
+    .about .aboutMobile{
+      height: 14vh;
+      width: 50vw;
+
+      position: absolute;
+      top:27vh;
+      left: 26vw;
+
+      font-size: .5rem;
+      line-height: 1.25vh;
+      font-weight: 300;
+      color: #5B81F1;
+      
+    }
+    .fontAbout{
+      margin: 0 0;
+      font-size:1.2rem;
+      font-style: italic;
+    }
+
   }

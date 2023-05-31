@@ -1,15 +1,15 @@
 import '../css/Hero.css';
 import React from 'react'
-import logo from "../images/BLACK-FORESIGHT-LOGO.png"
+import logo from "../images/BLUE-FORESIGHT-LOGO.svg"
 
 
-export default function()
+export default function Hero()
 {
     return (
-    <section className="hero-section">
+    <div id = "Main"className="hero-section">
       <div className="oval-cutout">
         <img src={logo} className="hero-logo" alt="logo"/>
       </div>
-    </section>
+    </div>
     );   
 }
