@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Foresight Magazine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Foresight Magazine, a student-organized publication dedicated to bridging the gap between students and experienced professionals from diverse backgrounds and career paths. Our mission is to provide insight into various industries, empower individuals to pursue fulfilling careers, and inspire positive change.
 
-## Available Scripts
+## About Us
+At Foresight Magazine, we believe that your career should be more than just a job - it should be a fulfilling and meaningful journey. Each issue of our magazine features interviews with both a student and an experienced professional, offering readers valuable insights, advice, and inspiration. Through these interviews, we aim to foster a deeper understanding of different career paths and empower the next generation to pursue their passions with confidence.
 
-In the project directory, you can run:
+## Features
+- **Interviews**: Gain valuable perspectives from both students and professionals in various industries.
+- **Career Insights**: Explore different career paths, industries, and opportunities.
+- **Inspiration**: Discover stories of individuals who have made a positive impact in their fields.
+- **Empowerment**: Equip yourself with the knowledge and motivation to pursue your dreams.
 
-### `npm start`
+## Technologies Used
+- **React**: Frontend development framework for building dynamic user interfaces.
+- **HTML/CSS**: Structuring and styling the website based on graphic designers' comps.
+- **JavaScript**: Adding interactivity and functionality to the website.
+- **Figma**: Collaboration with graphic designers for designing and prototyping.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Get Started
+1. Clone the repository to your local machine.
+   ```bash
+   git clone https://github.com/foresightmag/foresight.git
+   ```
+2. Navigate to the project directory.
+   ```bash
+   cd foresight-magazine
+   ```
+3. Install dependencies.
+   ```bash
+   npm install
+   ```
+4. Start the development server.
+   ```bash
+   npm start
+   ```
+5. Open your web browser and visit `http://localhost:3000` to view the website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for your interest in Foresight Magazine! Together, let's inspire change and empower the next generation of leaders.
